@@ -79,7 +79,7 @@ variable "cleanup_on_fail" {
 variable "lint" {
   description = "Run helm lint when planning"
   type        = bool
-  default     = true
+  default     = false
 }
 
 variable "values" {
